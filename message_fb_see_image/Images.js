@@ -38,6 +38,19 @@ function Images() {
   // fill images 
   const imgUrl = [
     'https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/361408992_1002451047424624_4766785465349382079_n.jpg?stp=dst-jpg_p280x280&_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH4JuZH_yDJmsVdS9xx4feLzLRSFlkhKY7MtFIWWSEpjrMXJqy05QM4anQZrnfKtZra5hgU71Dm8ToSF8wI0nuE&_nc_ohc=DcMjfNIOwjAAX_eEY_9&_nc_ht=scontent.fbkk2-4.fna&oh=03_AdT5tbpd2GWj4M5CcT5feNH8RGCrtWdP6nPh5DRkkCXEhA&oe=64E977E5',
+    'https://p4.wallpaperbetter.com/wallpaper/1022/37/262/4k-distant-planet-sunset-horizon-wallpaper-preview.jpg',
+    'https://c4.wallpaperflare.com/wallpaper/403/917/90/blue-planet-4k-8k-hd-wallpaper-preview.jpg',
+    'https://t4.ftcdn.net/jpg/04/27/16/05/360_F_427160582_w0D5Z01pVaz32w7JzzNWTtE2n1VvvKmi.jpg',
+    'https://www.whatgroupmag.com/wp-content/uploads/2019/10/Alien-1979-1.jpg',
+    'https://p4.wallpaperbetter.com/wallpaper/1022/37/262/4k-distant-planet-sunset-horizon-wallpaper-preview.jpg',
+    'https://c4.wallpaperflare.com/wallpaper/403/917/90/blue-planet-4k-8k-hd-wallpaper-preview.jpg',
+    'https://t4.ftcdn.net/jpg/04/27/16/05/360_F_427160582_w0D5Z01pVaz32w7JzzNWTtE2n1VvvKmi.jpg',
+    'https://www.whatgroupmag.com/wp-content/uploads/2019/10/Alien-1979-1.jpg',
+    'https://p4.wallpaperbetter.com/wallpaper/1022/37/262/4k-distant-planet-sunset-horizon-wallpaper-preview.jpg',
+    'https://c4.wallpaperflare.com/wallpaper/403/917/90/blue-planet-4k-8k-hd-wallpaper-preview.jpg',
+    'https://t4.ftcdn.net/jpg/04/27/16/05/360_F_427160582_w0D5Z01pVaz32w7JzzNWTtE2n1VvvKmi.jpg',
+    'https://www.whatgroupmag.com/wp-content/uploads/2019/10/Alien-1979-1.jpg',
+
 ]
 
 
