@@ -86,7 +86,7 @@ function Images() {
   ////// จัด path รูปภาพให้เลื่อนเองอัตโนมัต เพื่อให้เลื่อนดูได้ทุกภาพ ///////////////////////
   let centerImg = 0
   if(imgUrl.length > 12){
-    for(let i = 1;i < Math.ceil(imgUrl.length / 12) * 2 ;i++){
+    for(let i = 1;i < Math.ceil(imgUrl.length / 6) ;i++){
       if(positionImg > 6 * i) centerImg = 6 * i
       
     }
