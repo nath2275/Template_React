@@ -53,7 +53,7 @@ function Images() {
 
 ]
 
-
+  ////////////////// จัดรูปภาพให้สวยงามเต็มสี่เหลี่มแบบพอดี //////////////
   function centerImge(){
     const Images = document.querySelectorAll('.child_img');
     Images.forEach((item, index) => {
@@ -66,15 +66,24 @@ function Images() {
       }
     });
   }
-  // setTimeout(centerImge,10)
+  ////////////////// จัดรูปภาพให้สวยงามเต็มสี่เหลี่มแบบพอดี //////////////
+
+
+
+  // ตำแหน่งของรูปภาพ
   const [positionImg,setpositionImg] = useState(0)
+
+
+  
+  // ทำแรเงา ////////////////////////////
   const OPacity = styled.div`
   opacity: ${(props)=>{
     if(props.number === positionImg) return 1
     else return .4
-  }};
-  `
+  }};`
+ // ทำแรเงา ////////////////////////////
 
+  ////// จัด path รูปภาพให้เลื่อนเองอัตโนมัต เพื่อให้เลื่อนดูได้ทุกภาพ ///////////////////////
   let centerImg = 0
   if(imgUrl.length > 12){
     for(let i = 1;i < Math.ceil(imgUrl.length / 12) * 2 ;i++){
@@ -83,8 +92,10 @@ function Images() {
     }
     if(positionImg <= 6) centerImg = 0
   }
+  ////// จัด path รูปภาพให้เลื่อนเองอัตโนมัต เพื่อให้เลื่อนดูได้ทุกภาพ ///////////////////////
   
-  
+
+  ////// รูปภาพ ด้านล่าง หลายๆรูป //////////////////////////////////////////////////////////
   const number = [1,2,3,4,5,6,7,8,9,10,11,12]
   const Element_img = number.map((item,index)=>{
     if(imgUrl.length > index && (index + centerImg) < imgUrl.length ){
@@ -97,15 +108,17 @@ function Images() {
       )
     }
     return (
+      // ถ้าไม่มี url รูปภาพ จะไม่แสดงรูปภาพ
       <div className='child_popup_img'>
         <img className='child_img' src='' />
       </div>
     )
   })
+////// รูปภาพ ด้านล่าง หลายๆรูป //////////////////////////////////////////////////////////
   
   
   
-
+////////////////////////// nextRight-Left ////////////////////////////////////////////////////////////////
   let nextLeft = null
   if(positionImg !== 0){
     nextLeft = (
@@ -127,7 +140,7 @@ function Images() {
       </div>
     )
   }
-
+////////////////////////// nextRight-Left ////////////////////////////////////////////////////////////////
   
 
   return (
