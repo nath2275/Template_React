@@ -147,7 +147,6 @@ function Images() {
     <div className='popup_imges'>
       <Color color="white">
         <i class="fa-solid fa-xmark" ></i> 
-        {positionImg}
       </Color>
       
 
