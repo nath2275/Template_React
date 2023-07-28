@@ -1,0 +1,35 @@
+.Confirm{
+    width: 500px;
+    background: rgb(255, 255, 255);
+    margin: 3% auto;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: relative;
+}
+
+.confirm_ok,.confirm_cancel{
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 70px;
+    height: 30px;
+    font-weight: 500;
+}
+.confirm_ok {
+    background-color: #6967C7;
+    color: white;
+    margin-right: 10px;
+}
+.confirm_cancel{
+    border: 1.5px solid rgba(0, 0, 0, 0.15);
+    background: white;
+    color: #6967C7;
+}
+.confirm_click{
+    width: 100%;
+    /* background: salmon; */
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}
