@@ -1,0 +1,113 @@
+.popup_upload{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.container_popup_upload{
+    width: 60vw;
+    height: 80vh;
+    background: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    z-index: 9999;
+}
+
+.center{
+    position: relative;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scrollY{
+    overflow-y: scroll;
+    padding: 5vh 0;
+    width: 60vw;
+    overflow-x: hidden;
+    
+}
+.UploadImages{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 40vw;
+    margin-bottom: 20px;
+    margin: auto;
+    gap: 2.5vw;
+}
+.UploadImages_bg{
+    width: 20vw;
+    height: 20vw;
+    /* background: blueviolet; */
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#close_upload_img{
+    position: absolute;
+    color: red;
+    font-size: xx-large;
+    z-index: 15;
+    right: -0.75vw;
+    top: -0.75vw;
+}
+.Realative{
+    position: relative;
+}
+.circle_white_bg{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: white;
+    right: -0.75vw;
+    top: -0.75vw;
+    z-index: 14;
+    border-radius: 100%;
+}
+
+
+.inputfile{
+    visibility:hidden;
+    position: absolute;
+}
+
+
+@media (max-width: 458px) {
+    .UploadImages{
+        grid-template-columns: 1fr;
+        width: 100vw;
+    }
+    .UploadImages_bg,.Realative{
+        width: 60vw;
+        height: 60vw;
+        margin: auto;
+    }
+    .circle_white_bg{
+        width: 15px;
+        height: 15px;
+        right: -0.5vw;
+        top: -0.5vw;
+    }
+    #close_upload_img{
+        right: -0.5vw;
+        top: -0.5vw;
+        font-size: large;
+    }
+    .container_popup_upload,
+    .scrollY,
+    .center{
+        width: 100vw;
+    }
+  }
